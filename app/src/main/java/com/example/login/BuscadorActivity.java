@@ -60,7 +60,7 @@ EditText apodoBuscador;
                     apodo.setText(response.body().getApodo());
                     nombre.setText(response.body().getNombre());
                     apellido.setText(response.body().getApellido());
-                    Glide.with(context).load(response.body().getUrl()).into(insignia);
+                    Glide.with(context).load(response.body().avatar).into(insignia);
 
                 }
             }

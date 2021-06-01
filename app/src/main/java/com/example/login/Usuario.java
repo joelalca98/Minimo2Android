@@ -8,7 +8,7 @@ public class Usuario implements Serializable {
     String nombre;//3
     String apellido; //4
     String password; //5
-    String url;
+    String avatar;
 
 
     public Usuario(String correo, String apodo, String nombre, String apellido, String password, String url) {
@@ -17,15 +17,15 @@ public class Usuario implements Serializable {
         this.nombre = nombre;
         this.apellido = apellido;
         this.password = password;
-        this.url = url;
+        this.avatar = url;
     }
 
-    public String getUrl() {
-        return url;
+    public String getAvatar() {
+        return avatar;
     }
 
-    public void setUrl(String url) {
-        this.url = url;
+    public void setAvatar(String avatar) {
+        this.avatar = avatar;
     }
 
     @Override
